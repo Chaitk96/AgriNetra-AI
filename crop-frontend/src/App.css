@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #f2f5f9;
+  text-align: center;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.preview {
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}

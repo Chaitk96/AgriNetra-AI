@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 1.8s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
+.text-orange-400 {
+  text-shadow: 0 0 6px rgba(255,140,0,0.6);
+}
+
+.text-green-400 {
+  text-shadow: 0 0 6px rgba(0,255,120,0.6);
+}
